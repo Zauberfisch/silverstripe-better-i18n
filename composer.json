@@ -1,0 +1,24 @@
+{
+	"name": "zauberfisch/silverstripe-better-i18n",
+	"description": "Replacement for SilverStripe i18n",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/Zauberfisch/silverstripe-better-requirements",
+	"keywords": ["silverstripe", "gridfield"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Zauberfisch",
+			"email": "zauberfisch@zauberfisch.at"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/Zauberfisch/silverstripe-better-i18n/issues"
+	},
+	"require": {
+		"silverstripe/framework": ">=3.1",
+		"symfony/yaml": "3.0.*@dev"
+	},
+	"extra": {
+		"installer-name": "better-i18n"
+	}
+}
