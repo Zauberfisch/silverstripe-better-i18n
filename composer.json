@@ -2,7 +2,7 @@
 	"name": "zauberfisch/silverstripe-better-i18n",
 	"description": "Replacement for SilverStripe i18n",
 	"type": "silverstripe-module",
-	"homepage": "https://github.com/Zauberfisch/silverstripe-better-requirements",
+	"homepage": "https://github.com/Zauberfisch/silverstripe-better-i18n",
 	"keywords": ["silverstripe"],
 	"license": "BSD-3-Clause",
 	"authors": [
