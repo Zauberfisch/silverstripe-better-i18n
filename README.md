@@ -41,12 +41,12 @@ Parameters:
 
 Examples:
 
-- `http://mysite.com/dev/tasks/BetterI18NTextCollectorTask?flush=1`
-- `http://mysite.com/dev/tasks/BetterI18NTextCollectorTask?targetlocale=de,en&module=mysite&flush=1`
-- With sake/cli: `sake dev/tasks/BetterI18NTextCollectorTask flush=1`
-- With sake/cli: `sake dev/tasks/BetterI18NTextCollectorTask "targetlocale=de,en&module=mysite&flush=1"`
+- `http://mysite.com/dev/tasks/BetterI18nTextCollectorTask?flush=1`
+- `http://mysite.com/dev/tasks/BetterI18nTextCollectorTask?targetlocale=de,en&module=mysite&flush=1`
+- With sake/cli: `sake dev/tasks/BetterI18nTextCollectorTask flush=1`
+- With sake/cli: `sake dev/tasks/BetterI18nTextCollectorTask "targetlocale=de,en&module=mysite&flush=1"`
 
-Warning: running the BetterI18NTextCollectorTask will overwrite your existing lang file. 
+Warning: running the `BetterI18nTextCollectorTask` will overwrite your existing lang file. 
 It will merge existing entities in the file, but will delete unused ones.
 
 ## License
